@@ -1,1 +1,2 @@
-# HTML_and_CSS
+# HTML-and-CSS-Projects
+This repository will store all my coding projects.
