@@ -7,8 +7,8 @@
 html  {
     font-family: sans-serif;
     font-size: 62.5%;
-    webkit-tap-highlight-color: rgba(0,0,0, 0);
-    webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0, 0);
+    -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
@@ -39,11 +39,12 @@ h1 {
     color: #E91C1C;
     text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
 }
+
 h1::after { /*This is the underline */
     display: block;
     content: "";
     height: 2px;
-    height: 150px;
+    width: 150px;
     background: #E91C1C;
     margin: 5px auto 40px;
     box-shadow: 5px 2px 3px rgba(0,0,0,0.5);
@@ -111,7 +112,7 @@ section  {
     margin-left: -15px;
 }
 
-.clearfix::after,
+.clearfix:after,
 .container:after,
 .navbar:after {
     clear: both;
@@ -148,9 +149,8 @@ section  {
 /* HOME SECTION*/
 
 
-
 #home {
-    background: url( ../images/planets/jpg) no-repeat 50% 50%;
+    background: url( ./images/planets.jpg) no-repeat 50% 50%;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -197,7 +197,7 @@ section  {
 /*-------------------------------
     Contact STYLES 
   -------------------------------*/
-  .flex-container {
+.flex-container {
       display: -webkit-flex;
       display: flex;
       flex-wrap: wrap;
@@ -208,20 +208,20 @@ section  {
       box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
   }
 
-  #contact {
+#contact {
       background-color: #f5f3f3;
   }
 
-  .reservation {
+.reservation {
       width: 60%;
       padding: 10px;
       border-radius: 8px;
       margin: 0px auto;
-      background-color: rgba(100,65,0,0.3);
+      background-color: rgba(100,65,0,.3);
       box-shadow: -1px -1px 1px 0 rgba(o,o,o,0.1), 1px 2px 10px 0 rgba(0,0,0,0.5);
   }
 
-  .reservation h2 {
+.reservation h2 {
       width: 70%;
       text-align: center;
       margin: 0 auto;
@@ -232,7 +232,7 @@ section  {
       word-spacing: 0pt;
   }
 
-  .reservation h2 span {
+.reservation h2 span {
       width: 70%;
       text-align: center;
       margin: 0 auto;
@@ -244,13 +244,13 @@ section  {
       word-spacing: .3pt;
   }
 
-  .reservation p {
+.reservation p {
       color: #13161b;
       width: 50%;
       margin: 0 auto;
   }
 
-  .reservation form {
+.reservation form {
       font-size: 15px;
       outline: none;
       font-weight: 600;
@@ -265,7 +265,7 @@ section  {
       font-family: 'Raleway', sans-serif;
   }
 
-  .reservation input [type="text"] {
+.reservation input[type="text"] {
       font-size: 15px;
       outline: none;
       font-weight: 600;
@@ -274,7 +274,7 @@ section  {
       width: 80%;
       border-top: 1px solid #090b0d;
       border-right: 2px solid #424549;
-      border-right: 2px solid #424549;
+      border-bottom: 2px solid #424549;
       border-left: 1px solid #090b0d;
       margin: 10px 1em;
       border-radius: 7px;
@@ -283,15 +283,15 @@ section  {
       font-family: 'Raleway', sans-serif;
   }
 
-  .reservation input[type="text"]:hover {
+.reservation input[type="text"]:hover {
       box-shadow: 0 0 18px rgba(100,65,0,.8);
   }
 
-  .form-spacer {
+.form-spacer {
       padding: 30px 39px;
   }
 
-  .terms {
+.terms {
       margin-top: 13%;
       margin: 30px 1px 0 0 ;
       padding-left: 52px;
@@ -306,7 +306,7 @@ section  {
       float: right;
   }
 
-  .terms:hover {
+.terms:hover {
       color: orange;
       text-decoration: underline;
   }
