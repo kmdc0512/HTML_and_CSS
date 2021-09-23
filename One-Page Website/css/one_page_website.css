@@ -1,0 +1,15 @@
+
+
+
+
+html {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 16px;
+}
+
+input {
+    width: 20%;
+    border: 2px solid #130202;
+    margin: 2px;
+    border-radius: 2px;
+}
