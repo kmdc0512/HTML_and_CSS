@@ -6,7 +6,7 @@
     <body>
         <h1>HTML and CSS Projects</h1>
             <br>
-            <p>Below are samples of some of the projects I created using HTML and CSS.</p>
+            <p>Below are samples of some of the projects I created using HTML and CSS at The Tech Academy.</p>
         <h2>Projects</h2>
             <ul>
                 <li>Space Station Site</li>
